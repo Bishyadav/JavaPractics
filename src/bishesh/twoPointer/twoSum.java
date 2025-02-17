@@ -14,13 +14,12 @@ public class twoSum {
         }
     }
     public static int[] twoSum(int[] arr,int[] result){
-        int target=4;
+        int target=9;
         HashMap<Integer,Integer> hm=new HashMap<>();
 
         for(int i=0;i<arr.length;i++){
             if (hm.containsKey(arr[i])) {
                 //if you get the element set the array with the result
-                //int temp=target-arr[i];
                 result[0]=hm.get(arr[i]);
                 result[1]=i;
             }
