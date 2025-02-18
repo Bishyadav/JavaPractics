@@ -4,7 +4,7 @@ import java.util.HashMap;
 public class twoSum {
     public static void main(String[] args) {
         int[] arr={2,5,4,7,9,2};
-        twoSum(arr);
+        //   twoSum(arr);
         for (int res:twoSum(arr)){
             System.out.println(res+" ");
         }
