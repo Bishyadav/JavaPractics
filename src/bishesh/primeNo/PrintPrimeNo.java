@@ -12,18 +12,7 @@ public class PrintPrimeNo {
         //for(int i=1;i<=no;i++){
 
         //second way to find prime no
-//        for(int i=1;i<=no/2;i++){
-//        if (no%i==0){
-//            count++;
-//        }
-//    }
-//        if (count==1){
-//        flag=true;
-//    }
-//        else {
-//        flag=false;
-//    }
-//        return flag;
+       //for(int i=1;i<=no/2;i++){
 
         //third way to find prime no
          for(int i=1;i<Math.sqrt(no);i++){
