@@ -11,10 +11,10 @@ public class PrintPrimeNo {
         //first wat to find prime no
         //for(int i=1;i<=no;i++){
 
-        //second way to find prime no
+        //Optimize way to find prime no
        //for(int i=1;i<=no/2;i++){
 
-        //third way to find prime no
+        //Most Efficient way to find prime no
          for(int i=1;i<Math.sqrt(no);i++){
             if (no%i==0){
                 count++;
