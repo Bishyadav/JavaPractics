@@ -4,13 +4,13 @@ import java.util.HashMap;
 public class twoSum {
     public static void main(String[] args) {
         int[] arr={2,5,4,7,9,2};
-        //   twoSum(arr);
-        for (int res:twoSum(arr)){
+        int target=4;
+        for (int res:twoSum(arr,target)){
             System.out.println(res+" ");
         }
     }
-    public static int[] twoSum(int[] arr){
-        int target=4;
+    public static int[] twoSum(int[] arr,int target){
+
         int[] result=new int[2];
         HashMap<Integer,Integer> hm=new HashMap<>();
 
