@@ -15,12 +15,12 @@ public class FindNthPrimeNo {
         List<Integer> list=new ArrayList<>();
         for(int i=2;i<=4000;i++){
             int count=0;
-            for(int j=1;j<=i;j++){
+            for(int j=2;j<=Math.sqrt(i);j++){
                if (i%j==0){
                   count++;
                }
             }
-            if (count==2){
+            if (count==0){
                 list.add(i);
             }
         }
