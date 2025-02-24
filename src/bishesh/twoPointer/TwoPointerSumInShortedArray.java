@@ -7,9 +7,7 @@ public class TwoPointerSumInShortedArray {
         for (int x : twoSum(arr)) {
             System.out.print(x + " ");
         }
-
     }
-
     public static int[] twoSum(int[] arr) {
         int target = 0;
         int[] result = new int[2];
