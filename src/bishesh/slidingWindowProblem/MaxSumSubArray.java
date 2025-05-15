@@ -2,7 +2,7 @@ package src.bishesh.slidingWindowProblem;
 
 public class MaxSumSubArray {
     public static void main(String[] args) {
-        int[] a={2,31,3,7,5,9};
+        int[] a={1,3,5,7,9};
         for(int element:result(a)){
             System.out.print(element+" ");
         }

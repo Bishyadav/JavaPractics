@@ -1,8 +1,6 @@
 package src.bishesh.slidingWindowProblem;
-
 import java.util.Arrays;
 import java.util.HashMap;
-
 public class LongestSubStringWithoutRepeatingChar {
     public static void main(String[] args) {
         String str="abbadae";
